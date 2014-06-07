@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>grammar</name>
+	<comment></comment>
+	<projects>
+		<project>grammar_antlr</project>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>antlr4</name>
+			<type>2</type>
+			<location>/home/aermakov/workspace/grammar_antlr/target/generated-sources/antlr4</location>
+		</link>
+	</linkedResources>
+</projectDescription>

@@ -1,0 +1,5 @@
+INPUT a,b
+FUNCTIONS div (x,y) => IF x<y THEN 0 ELSE  div(x + (-y),y) + 1 FI,
+		  mod (x,y) => IF x<y THEN x ELSE mod(x + (-y),y) FI
+OUTPUT	IF a < b THEN 1 + b ELSE a + (-3) FI
+END
