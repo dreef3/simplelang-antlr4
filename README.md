@@ -20,7 +20,7 @@ CN DN C1 ... Cn D1 ... Dn
 Here CN is a number of commands in the sequence, DN - number of data in the data stack. C1-Cn are commands, D1-Dn - data. Each data element is a number between -9999 and 9999. If there's such number in command sequence, it gets pushed on top of data stack.
 
 Code | Command | Data before | Data after | Effect | Description 
------|---------|---------|-------------------------------------------
+:---:|:-------:|:-----------:|:----------:|:------:|:---------------------
 -10000 | Add | [1,2,3]  |  [1,5]  | | Take 2 items from data stack and push their sum
 -10001 | Mult | [1,2,3]  |  [1,6] | | Take 2 items from data stack and push their product
 -10002 | Minus | [1,2,3]  |  [1,2,-3] | | Take 1 item from data stack and push it's negation
